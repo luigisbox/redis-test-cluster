@@ -1,6 +1,6 @@
 FROM phusion/baseimage:0.9.16
 
-MAINTAINER Luigi's Box <support@luigisbox.com>
+MAINTAINER Luigi\'s Box <support@luigisbox.com>
 
 CMD ["/sbin/my_init"]
 
@@ -29,7 +29,5 @@ ADD /nodes/8002/start.sh /etc/service/redis-8002/run
 ADD /nodes/8003/start.sh /etc/service/redis-8003/run
 ADD /nodes/8004/start.sh /etc/service/redis-8004/run
 ADD /nodes/8005/start.sh /etc/service/redis-8005/run
-
-
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
