@@ -1,6 +1,6 @@
 FROM phusion/baseimage:0.9.16
 
-MAINTAINER Luigi\'s Box <support@luigisbox.com>
+MAINTAINER Luigis Box <support@luigisbox.com>
 
 CMD ["/sbin/my_init"]
 
